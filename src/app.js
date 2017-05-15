@@ -97,9 +97,10 @@ class App extends Component {
           <UserInfo
             photo={userInfo.photo}
             username={userInfo.username}
+            login={userInfo.login}
             repos={userInfo.repos}
             followers={userInfo.followers}
-            folllowing={userInfo.folllowing}
+            following={userInfo.following}
           />
         }
 
